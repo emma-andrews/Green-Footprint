@@ -26,7 +26,7 @@ public class MPGactivity extends AppCompatActivity {
             public void onClick(View view) {
                 Log.v("Next", textbox.getText().toString());
             }
-        });
+        });//https://stackoverflow.com/questions/4531396/get-value-of-a-edit-text-field
     }
     public void sendMessage(View view) {
         Intent intent = new Intent(this, KPHactivity.class);

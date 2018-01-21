@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by Emma on 1/20/2018.
  */
-
+//https://androidresearch.wordpress.com/2012/03/22/defining-global-variables-in-android/
 public class Globals {
     private static Globals instance;
 
